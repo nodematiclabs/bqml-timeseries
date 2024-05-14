@@ -1,0 +1,631 @@
+mouseWheel:
+  _isScalar: false
+  closed: false
+  isStopped: false
+  hasError: false
+  thrownError: null
+  __isAsync: false
+elementDraw:
+  _isScalar: false
+  closed: false
+  isStopped: false
+  hasError: false
+  thrownError: null
+  __isAsync: false
+snapSettings:
+  constraints: 16
+serializationSettings:
+  preventDefaults: true
+contextMenuSettings:
+  show: true
+  items:
+    - text: Edit
+      id: edit
+      target: .e-elementcontent
+      iconCss: fa fa-cogs
+    - text: Callout To
+      id: callout
+      target: .e-elementcontent
+      iconCss: fa fa-crosshairs
+    - text: Increase font size ↑
+      id: increaseFontSize
+      target: .e-elementcontent
+      iconCss: fa fa-font
+    - text: Decrease font size ↓
+      id: decreaseFontSize
+      target: .e-elementcontent
+      iconCss: fa fa-font
+    - text: Fill
+      id: fill
+      target: .e-elementcontent
+      iconCss: fa fa-tint
+    - text: Highlight
+      id: highlight
+      target: .e-elementcontent
+      iconCss: fa fa-lightbulb-o
+    - text: Collapse to square
+      id: collapseToSquare
+      target: .e-elementcontent
+      iconCss: fa fa-compress
+    - text: Collapse to named square
+      id: collapseToNamedSquare
+      target: .e-elementcontent
+      iconCss: fa fa-compress
+    - text: Collapse to circle
+      id: collapseToCircle
+      target: .e-elementcontent
+      iconCss: fa fa-compress
+    - text: Expand
+      id: expand
+      target: .e-elementcontent
+      iconCss: fa fa-expand
+    - text: Bring to front
+      id: front
+      target: .e-elementcontent
+      iconCss: fa fa-angle-double-up
+    - text: Bring forward
+      id: forward
+      target: .e-elementcontent
+      iconCss: fa fa-angle-up
+    - text: Send backward
+      id: backward
+      target: .e-elementcontent
+      iconCss: fa fa-angle-down
+    - text: Send to back
+      id: back
+      target: .e-elementcontent
+      iconCss: fa fa-angle-double-down
+    - text: Remove
+      id: remove
+      target: .e-elementcontent
+      iconCss: fa fa-times
+  showCustomMenuOnly: true
+tool: 5
+scrollSettings:
+  scrollLimit: Infinity
+  viewPortWidth: 930
+  viewPortHeight: 606
+  horizontalOffset: 51
+  verticalOffset: -54
+addInfo:
+  currencyText: USD ($)
+  currencySymbol: $
+  selectedViewType: 0
+height: 606
+connectors:
+  - id: Orthogonal ConnectorBgR9Z
+    type: Orthogonal
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+    constraints: 470654
+    sourcePoint:
+      x: 376
+      y: 337
+    targetPoint:
+      x: 472
+      y: 238
+    sourceID: Web ApplicationsZAkV
+    targetID: PubSubwSUqF
+    segments:
+      - type: Orthogonal
+    addInfo:
+      viewConnector: 0
+    zIndex: 5
+  - id: Orthogonal Connectorn6cFX
+    type: Orthogonal
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+    constraints: 470654
+    sourcePoint:
+      x: 376
+      y: 193
+    targetPoint:
+      x: 472
+      y: 238
+    sourceID: Iot CoreQLJ1T
+    targetID: PubSubwSUqF
+    segments:
+      - type: Orthogonal
+    addInfo:
+      viewConnector: 0
+    zIndex: 6
+  - id: Straight ConnectorWf1BL
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+    sourcePoint:
+      x: 622
+      y: 288
+    targetPoint:
+      x: 622
+      y: 318
+    sourceID: PubSubwSUqF
+    targetID: Dataflowhd8o3
+    addInfo:
+      viewConnector: 0
+    zIndex: 7
+  - id: Orthogonal ConnectorL6g0S
+    type: Orthogonal
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+    constraints: 470654
+    sourcePoint:
+      x: 772
+      y: 368
+    targetPoint:
+      x: 847
+      y: 300
+    sourceID: Dataflowhd8o3
+    targetID: BigQueryqDCgy
+    segments:
+      - type: Orthogonal
+    addInfo:
+      viewConnector: 0
+    zIndex: 8
+  - id: Straight Bidirectional ConnectorE0mys
+    sourceDecorator:
+      shape: OpenArrow
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+    sourcePoint:
+      x: 997
+      y: 213
+    targetPoint:
+      x: 997
+      y: 250
+    sourceID: Artificial Intelligencera6GB
+    targetID: BigQueryqDCgy
+    addInfo:
+      viewConnector: 0
+    zIndex: 10
+nodes:
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #3871e0;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/iot_core_Black_87_lueroi.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/iot_core_ridgsi.png);"></div><div
+        class="c-text"><div class="c-title">IoT Core</div><div
+        class="c-short-description">Managing, connecting, and securing IoT
+        devices at scale</div><div class="c-bottom"><div class="c-hr
+        p-mb-1"></div><div class="c-title-bottom">Google Cloud
+        Platform</div></div></div></div></div>'
+    id: Iot CoreQLJ1T
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Iot Core
+        shortDescription: Managing, connecting, and securing IoT devices at scale
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Iot Core
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Iot Core
+      editableName: IoT Core
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Processing Tool
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageProcessingTime
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Processing Tool
+          AverageProcessingTime: 1
+      name: Iot Core
+      category: 4
+      imgUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/iot_core_ridgsi.png
+      imgPrimaryUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/iot_core__044448_fbkmum.png
+      imgBlackUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/iot_core_Black_87_lueroi.png
+      color: "#3871e0"
+      controlText: Iot Core
+      selectedDynamicsView: 0
+    width: 300
+    height: 100
+    offsetX: 226
+    offsetY: 193
+    zIndex: 0
+    outEdges:
+      - Orthogonal Connectorn6cFX
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #3d5c5c;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/Web_Application_Black_87_pdwccj.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/Web_Application_3d5c5c_iswqan.png);"></div><div
+        class="c-text"><div class="c-title">Web Application</div><div
+        class="c-short-description">Providing interactive online services to
+        users through web browsers</div><div class="c-bottom"><div class="c-hr
+        p-mb-1"></div><div class="c-title-bottom">Web
+        Application</div></div></div></div></div>'
+    id: Web ApplicationsZAkV
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Web Application
+        shortDescription: Providing interactive online services to users through web browsers
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Web Application
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Web Application
+      editableName: Web Application
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Application
+          type: Storage
+          portsIn:
+            put: deployed
+            get: request
+          portsOut:
+            stored: response
+      dynamicsViews:
+        - type: Storage
+          status: Idle
+          name: Application
+      name: Web Application
+      category: 5
+      imgUrl: https://storage.googleapis.com/nodematic/sds_logos/Web_Application_3d5c5c_iswqan.png
+      imgPrimaryUrl: https://storage.googleapis.com/nodematic/sds_logos/Web_Application_Black_zbzaaw.png
+      imgBlackUrl: https://storage.googleapis.com/nodematic/sds_logos/Web_Application_Black_87_pdwccj.png
+      color: "#3d5c5c"
+      controlText: Web Application
+      selectedDynamicsView: 0
+    width: 300
+    height: 100
+    offsetX: 226
+    offsetY: 337
+    zIndex: 1
+    outEdges:
+      - Orthogonal ConnectorBgR9Z
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #3871e0;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/bigquery_Black_87_wnczcr.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/bigquery_qbcoev.png);"></div><div
+        class="c-text"><div class="c-title">BigQuery</div><div
+        class="c-short-description">Analyzing massive datasets in real-time
+        using SQL-like queries</div><div class="c-bottom"><div class="c-hr
+        p-mb-1"></div><div class="c-title-bottom">Google Cloud
+        Platform</div></div></div></div></div>'
+    id: BigQueryqDCgy
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: BigQuery
+        shortDescription: Analyzing massive datasets in real-time using SQL-like queries
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: BigQuery
+      status: N/A
+      size: sm
+      nodeType: html
+      title: BigQuery
+      editableName: BigQuery
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Processing Tool
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageProcessingTime
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Processing Tool
+          AverageProcessingTime: 1
+      name: BigQuery
+      category: 4
+      imgUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/bigquery_qbcoev.png
+      imgPrimaryUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/bigquery__044448_tx0mzn.png
+      imgBlackUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/bigquery_Black_87_wnczcr.png
+      color: "#3871e0"
+      controlText: BigQuery
+      selectedDynamicsView: 0
+    width: 300
+    height: 100
+    offsetX: 997
+    offsetY: 300
+    zIndex: 2
+    inEdges:
+      - Orthogonal ConnectorL6g0S
+      - Straight Bidirectional ConnectorE0mys
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #3871e0;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/pubsub_Black_87_re2ikj.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/pubsub_c8kslh.png);"></div><div
+        class="c-text"><div class="c-title">PubSub</div><div
+        class="c-short-description">Asynchronous messaging and event-driven
+        communication between distributed systems</div><div
+        class="c-bottom"><div class="c-hr p-mb-1"></div><div
+        class="c-title-bottom">Google Cloud
+        Platform</div></div></div></div></div>'
+    id: PubSubwSUqF
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: PubSub
+        shortDescription: Asynchronous messaging and event-driven communication between
+          distributed systems
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: PubSub
+      status: N/A
+      size: sm
+      nodeType: html
+      title: PubSub
+      editableName: PubSub
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Processing Tool
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageProcessingTime
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Processing Tool
+          AverageProcessingTime: 1
+      name: PubSub
+      category: 4
+      imgUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/pubsub_c8kslh.png
+      imgPrimaryUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/pubsub__044448_yvz8nv.png
+      imgBlackUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/pubsub_Black_87_re2ikj.png
+      color: "#3871e0"
+      controlText: PubSub
+      selectedDynamicsView: 0
+    width: 300
+    height: 100
+    offsetX: 622
+    offsetY: 238
+    zIndex: 3
+    inEdges:
+      - Orthogonal ConnectorBgR9Z
+      - Orthogonal Connectorn6cFX
+    outEdges:
+      - Straight ConnectorWf1BL
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #3871e0;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/dataflow_Black_87_fvkazo.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/dataflow_lrzmk3.png);"></div><div
+        class="c-text"><div class="c-title">Dataflow</div><div
+        class="c-short-description">Processing and analyzing large amounts of
+        data in real-time or batch modes</div><div class="c-bottom"><div
+        class="c-hr p-mb-1"></div><div class="c-title-bottom">Google Cloud
+        Platform</div></div></div></div></div>'
+    id: Dataflowhd8o3
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Dataflow
+        shortDescription: Processing and analyzing large amounts of data in real-time or
+          batch modes
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Dataflow
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Dataflow
+      editableName: Dataflow
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Processing Tool
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageProcessingTime
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Processing Tool
+          AverageProcessingTime: 1
+      name: Dataflow
+      category: 4
+      imgUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/dataflow_lrzmk3.png
+      imgPrimaryUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/dataflow__044448_wpsdj6.png
+      imgBlackUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/dataflow_Black_87_fvkazo.png
+      color: "#3871e0"
+      controlText: Dataflow
+      selectedDynamicsView: 0
+    width: 300
+    height: 100
+    offsetX: 622
+    offsetY: 368
+    zIndex: 4
+    inEdges:
+      - Straight ConnectorWf1BL
+    outEdges:
+      - Orthogonal ConnectorL6g0S
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #433F3E; border-radius:
+        10px"><div class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1677055369/sds_logos/Brain_Black_87_mt3chn.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1677055369/sds_logos/Brain_xtdm22.png);
+        border-radius: 10px"></div></div><div
+        class="c-undername"><div>AI</div></div><hr class="c-underrule"
+        style="background-color: #433F3E"></div>'
+    id: Artificial Intelligencera6GB
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Artificial Intelligence
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Artificial Intelligence
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Artificial Intelligence
+      editableName: AI
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Processing Tool
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageProcessingTime
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Processing Tool
+          AverageProcessingTime: 1
+      name: Artificial Intelligence
+      category: 5
+      imgUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1677055369/sds_logos/Brain_xtdm22.png
+      imgPrimaryUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1677055369/sds_logos/Brain__044448_arwabe.png
+      imgBlackUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1677055369/sds_logos/Brain_Black_87_mt3chn.png
+      controlText: Artificial Intelligence
+      color: "#433F3E"
+      selectedDynamicsView: 0
+      collapsedToSquare: false
+      collapsedToNamedSquare: true
+      collapsedToCircle: false
+    width: 100
+    height: 124
+    offsetX: 997
+    offsetY: 151
+    zIndex: 9
+    outEdges:
+      - Straight Bidirectional ConnectorE0mys
+selectedItems:
+  width: 0
+  height: 0
